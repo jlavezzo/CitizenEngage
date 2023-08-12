@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Government Initiatives</title>
+</head>
+<body>
+    <h1>Government Initiatives</h1>
+    <% if (governmentInitiatives.length === 0) { %>
+        <p>No government initiatives found.</p>
+    <% } else { %>
+        <ul>
+            <% governmentInitiatives.forEach(governmentInitiative => { %>
+                <li>
+                    <h2><%= governmentInitiative.title %></h2>
+                    <p><%= governmentInitiative.description %></p>
+                    <p><strong>Category:</strong> <%= governmentInitiative.category %></p>
+                </li>
+            <% }) %>
+        </ul>
+    <% } %>
+</body>
+</html>

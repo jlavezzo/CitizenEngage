@@ -1,0 +1,20 @@
+{
+  "name": "citizen-engage",
+  "version": "1.0.0",
+  "description": "CitizenEngage aims to bridge the gap between citizens and the government by providing a platform for seamless communication, feedback, and participation in government initiatives.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node backend/index.js",
+    "dev": "nodemon backend/index.js"
+  },
+  "author": "Charles Mailosi",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^6.0.4"
+  }
+}
