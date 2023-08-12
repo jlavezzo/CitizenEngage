@@ -1,44 +1,13 @@
-const Feedback = require('../models/feedbackModel');
+const mongoose = require('mongoose');
 
-// Handle user feedback submission
-exports.submitFeedback = async (req, res) => {
-  try {
-    const { category, message } = req.body;
-    const submittedBy = req.user.userId; // Get the authenticated user's ID from the JWT token
+// I moved two functions from here into feedbackController and deleted everything from this file
 
-    // Create a new feedback instance
-    const feedback = new Feedback({ category, message, submittedBy });
+const feedbackSchema = new mongoose.Schema({
 
-    // Save the feedback to the database
-    await feedback.save();
-    return res.status(201).json({ message: 'Feedback submitted successfully' });
-  } catch (error) {
-    return res.status(500).json({ message: 'Something went wrong' });
-  }
-};
+   //needs some content
 
-// Get all feedback
-exports.getAllFeedback = async (req, res) => {
-  try {
-    // Fetch all feedback from the database
-    const feedbackList = await Feedback.find();
+});
 
-    return res.json(feedbackList);
-  } catch (error) {
-    return res.status(500).json({ message: 'Something went wrong' });
-  }
-};
+const Feedback = mongoose.model('Feedback', feedbackSchema);
 
-// Get all feedback submitted by a specific user
-exports.getUserFeedback = async (req, res) => {
-  try {
-    const userId = req.params.userId; // Get the user ID from the request parameters
-
-    // Fetch all feedback submitted by the specified user from the database
-    const feedbackList = await Feedback.find({ submittedBy: userId });
-
-    return res.json(feedbackList);
-  } catch (error) {
-    return res.status(500).json({ message: 'Something went wrong' });
-  }
-};
+module.exports = Feedback;
