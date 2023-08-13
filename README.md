@@ -3,45 +3,43 @@
 
 ## Features:
 
-1. User Registration and Authentication:
-- Allow citizens to create accounts with basic information like name, email, and phone number.
+1. ### User Registration and Authentication:
+     - Allow citizens to create accounts with basic information like name, email, and phone number.
+     - Implement secure user authentication to protect user data.
 
-- Implement secure user authentication to protect user data.
+2. ### Dashboard:
+     - Upon login, users land on a personalized dashboard showing relevant government announcements, news, and updates.
+     - Provide quick links to essential services like paying taxes, applying for permits, and accessing government documents.
 
-2. Dashboard:
-- Upon login, users land on a personalized dashboard showing relevant government announcements, news, and updates.
+3. ### Feedback and Suggestions:
+     - Enable citizens to submit feedback, complaints, or suggestions directly to the government.
+     - Categorize feedback to help government officials prioritize and respond accordingly.
 
-- Provide quick links to essential services like paying taxes, applying for permits, and accessing government documents.
+4. ### Government Initiatives:
+     - Highlight ongoing government initiatives and programs with detailed information and objectives.
+     - Encourage citizens to participate and provide feedback on these initiatives.
 
-3. Feedback and Suggestions:
-- Enable citizens to submit feedback, complaints, or suggestions directly to the government.
-- Categorize feedback to help government officials prioritize and respond accordingly.
+5. ### Real-Time Alerts:
+     - Send real-time notifications to users regarding important government announcements, emergencies, or public safety alerts.
 
-4. Government Initiatives:
-- Highlight ongoing government initiatives and programs with detailed information and objectives.
-- Encourage citizens to participate and provide feedback on these initiatives.
+6. ### Community Forums:
+     - Create discussion forums where citizens can interact, share ideas, and collaborate on civic matters.
+     - Government representatives can also participate in discussions to engage with citizens directly.
 
-5. Real-Time Alerts:
-- Send real-time notifications to users regarding important government announcements, emergencies, or public safety alerts.
+7. ### Public Services Directory:
+     - Maintain a comprehensive directory of public services and government offices with contact details and location maps.
 
-6. Community Forums:
-- Create discussion forums where citizens can interact, share ideas, and collaborate on civic matters.
-- Government representatives can also participate in discussions to engage with citizens directly.
+8. ### Public Health Information:
+     - Provide health-related information, vaccination schedules, and tips for maintaining a healthy lifestyle.
 
-7. Public Services Directory:
-- Maintain a comprehensive directory of public services and government offices with contact details and location maps.
+9. ### Environmental Awareness:
+     - Raise awareness about environmental issues, promote sustainable practices, and encourage citizen involvement in conservation efforts.
 
-8. Public Health Information:
-- Provide health-related information, vaccination schedules, and tips for maintaining a healthy lifestyle.
+10. ### Transparency and Accountability:
+     - Display government budgets, spending reports, and project status to promote transparency and accountability.
 
-9. Environmental Awareness:
-- Raise awareness about environmental issues, promote sustainable practices, and encourage citizen involvement in conservation efforts.
-
-10. Transparency and Accountability:
-- Display government budgets, spending reports, and project status to promote transparency and accountability.
-
-11. User Reporting and Analytics:
-- Implement data analytics to track user engagement, popular topics, and user feedback trends.
+11. ### User Reporting and Analytics:
+     - Implement data analytics to track user engagement, popular topics, and user feedback trends.
 
 ## Conclusion:
 The *CitizenEngage* app seeks to be a tool through which the Malawi government can communicate vital information to its citizens. Things like natural disasters and other environmental warnings can be communicated easily through this app thereby preventing further devastations that Malawi citizens have faced before such as this year’s cyclone.
